@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Sample XML File: International Characters
+  Provided by Sample-Files.com
+  
+  This file contains text in multiple languages and scripts to test
+  UTF-8 handling, character encoding, and internationalized XML processing.
+-->
+<internationalData xmlns="http://sample-files.com/samples/xml/i18n">
+
+  <greetings>
+    <greeting lang="en" script="Latin">Hello, World!</greeting>
+    <greeting lang="es" script="Latin">¡Hola, Mundo!</greeting>
+    <greeting lang="fr" script="Latin">Bonjour le monde !</greeting>
+    <greeting lang="de" script="Latin">Hallo Welt!</greeting>
+    <greeting lang="pt" script="Latin">Olá, Mundo!</greeting>
+    <greeting lang="it" script="Latin">Ciao, Mondo!</greeting>
+    <greeting lang="pl" script="Latin">Witaj, Świecie!</greeting>
+    <greeting lang="cs" script="Latin">Ahoj, Světe!</greeting>
+    <greeting lang="tr" script="Latin">Merhaba Dünya!</greeting>
+    <greeting lang="vi" script="Latin">Xin chào Thế giới!</greeting>
+    <greeting lang="zh-CN" script="CJK">你好，世界！</greeting>
+    <greeting lang="zh-TW" script="CJK">你好，世界！</greeting>
+    <greeting lang="ja" script="CJK">こんにちは世界！</greeting>
+    <greeting lang="ko" script="CJK">안녕하세요 세계!</greeting>
+    <greeting lang="ar" script="Arabic" dir="rtl">مرحبا بالعالم!</greeting>
+    <greeting lang="he" script="Hebrew" dir="rtl">!שלום עולם</greeting>
+    <greeting lang="fa" script="Arabic" dir="rtl">!سلام دنیا</greeting>
+    <greeting lang="hi" script="Devanagari">नमस्ते दुनिया!</greeting>
+    <greeting lang="bn" script="Bengali">ওহে বিশ্ব!</greeting>
+    <greeting lang="ta" script="Tamil">வணக்கம் உலகம்!</greeting>
+    <greeting lang="th" script="Thai">สวัสดีชาวโลก!</greeting>
+    <greeting lang="ru" script="Cyrillic">Привет, мир!</greeting>
+    <greeting lang="uk" script="Cyrillic">Привіт, світе!</greeting>
+    <greeting lang="el" script="Greek">Γεια σου Κόσμε!</greeting>
+    <greeting lang="ka" script="Georgian">გამარჯობა მსოფლიო!</greeting>
+    <greeting lang="am" script="Ethiopic">ሰላም ልዑል!</greeting>
+  </greetings>
+
+  <cities>
+    <city country="JP" lang="ja">
+      <name native="東京" romanized="Tōkyō"/>
+      <description>日本の首都であり、世界最大の都市圏の一つです。</description>
+      <population>13960000</population>
+    </city>
+    <city country="CN" lang="zh">
+      <name native="北京" romanized="Běijīng"/>
+      <description>中华人民共和国的首都，政治、文化中心。</description>
+      <population>21540000</population>
+    </city>
+    <city country="KR" lang="ko">
+      <name native="서울" romanized="Seoul"/>
+      <description>대한민국의 수도이자 최대 도시입니다.</description>
+      <population>9776000</population>
+    </city>
+    <city country="RU" lang="ru">
+      <name native="Москва" romanized="Moskva"/>
+      <description>Столица Российской Федерации и крупнейший город страны.</description>
+      <population>12635000</population>
+    </city>
+    <city country="EG" lang="ar">
+      <name native="القاهرة" romanized="Al-Qāhirah"/>
+      <description>عاصمة جمهورية مصر العربية وأكبر مدنها.</description>
+      <population>10230000</population>
+    </city>
+    <city country="IN" lang="hi">
+      <name native="मुम्बई" romanized="Mumbai"/>
+      <description>भारत का सबसे बड़ा शहर और वित्तीय राजधानी।</description>
+      <population>20670000</population>
+    </city>
+    <city country="GR" lang="el">
+      <name native="Αθήνα" romanized="Athína"/>
+      <description>Η πρωτεύουσα και μεγαλύτερη πόλη της Ελλάδας.</description>
+      <population>3154000</population>
+    </city>
+    <city country="TH" lang="th">
+      <name native="กรุงเทพมหานคร" romanized="Krung Thep"/>
+      <description>เมืองหลวงและเมืองที่ใหญ่ที่สุดของประเทศไทย</description>
+      <population>10539000</population>
+    </city>
+  </cities>
+
+  <specialCharacters>
+    <currencies>
+      <currency code="USD" symbol="$" name="United States Dollar"/>
+      <currency code="EUR" symbol="€" name="Euro"/>
+      <currency code="GBP" symbol="£" name="British Pound Sterling"/>
+      <currency code="JPY" symbol="¥" name="Japanese Yen"/>
+      <currency code="CNY" symbol="¥" name="Chinese Yuan"/>
+      <currency code="KRW" symbol="₩" name="South Korean Won"/>
+      <currency code="INR" symbol="₹" name="Indian Rupee"/>
+      <currency code="RUB" symbol="₽" name="Russian Ruble"/>
+      <currency code="THB" symbol="฿" name="Thai Baht"/>
+      <currency code="BTC" symbol="₿" name="Bitcoin"/>
+    </currencies>
+    <mathSymbols>π ∞ √ ∑ ∏ ∫ ∂ ∇ ≈ ≠ ≤ ≥ ± × ÷ ∈ ∉ ∅ ⊂ ⊃ ∪ ∩</mathSymbols>
+    <arrows>← → ↑ ↓ ↔ ↕ ⇐ ⇒ ⇑ ⇓ ⇔</arrows>
+    <emoji>😀 😎 🎉 🚀 💻 📱 🌍 ⭐ ✅ ❌ ⚠️ 📧</emoji>
+    <typographic>— – ' ' " " … · • † ‡ § ¶ © ® ™</typographic>
+  </specialCharacters>
+
+  <mixedDirectionality>
+    <text>The Arabic word for "book" is كتاب (kitāb), and in Hebrew it is ספר (sefer).</text>
+    <text>日本語と English を混ぜた文章のテストです。</text>
+    <text>Тест: mixing Cyrillic (кириллица) with Latin characters in one string.</text>
+    <text>한국어 text mixed with English for bidirectional testing 테스트입니다.</text>
+  </mixedDirectionality>
+
+</internationalData>
